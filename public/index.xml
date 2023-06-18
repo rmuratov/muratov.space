@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>muratov.</title>
+    <link>http://example.org/</link>
+    <description>Recent content on muratov.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 17 Jun 2023 16:55:59 +0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My First Post</title>
+      <link>http://example.org/blog/first/</link>
+      <pubDate>Sat, 17 Jun 2023 16:55:59 +0400</pubDate>
+      
+      <guid>http://example.org/blog/first/</guid>
+      <description>Jabu babu ouanitu man gengele keck.
+Hello Very cool yeah.
+interface IWow { cool?: string; } </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div>
+    <h1>Hi, my name is Ramil Muratov. I am software developer.</h1>
+
+    <p>
+        {{ with .Site.GetPage "section" "blog" }}
+            Here is my <a href="{{ .Permalink }}">blog</a>
+        {{ end }}
+    </p>
+
+    <ul>
+        {{ range .Site.Pages }}
+            <li>
+                <a href="{{ .Permalink }}">{{ .Permalink }}</a>
+            </li>
+        {{ end }}
+    </ul>
+  </div>
+{{ end }}
