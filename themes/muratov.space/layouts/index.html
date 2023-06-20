@@ -1,19 +1,19 @@
 {{ define "main" }}
-  <div>
-    <h1>Hi, my name is Ramil Muratov. I am software developer.</h1>
+<div>
+  <h1
+    class="text-5xl font-bold mt-16 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 from-3% to-sky-400 to-77%"
+  >
+    Hi! My name is Ramil Muratov.<br />I am software developer.
+  </h1>
 
-    <p>
-        {{ with .Site.GetPage "section" "blog" }}
-            Here is my <a href="{{ .Permalink }}">blog</a>
-        {{ end }}
-    </p>
+  <h2 class="text-3xl mt-6">Recent posts:</h2>
 
-    <ul>
-        {{ range .Site.Pages }}
-            <li>
-                <a href="{{ .Permalink }}">{{ .Permalink }}</a>
-            </li>
-        {{ end }}
-    </ul>
-  </div>
+  <ul class="mt-4 list-disc list-inside">
+    {{ range where .Site.RegularPages "Section" "blog" }}
+    <li>
+      <a class="underline" href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</div>
 {{ end }}

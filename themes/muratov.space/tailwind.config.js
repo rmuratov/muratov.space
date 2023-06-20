@@ -1,0 +1,14 @@
+const defaultTheme = require("tailwindcss/defaultTheme");
+
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./**/*.html"],
+  darkMode: 'class',
+  theme: {
+    fontFamily: {
+      sans: ["Poppins", ...defaultTheme.fontFamily.sans],
+      serif: ["Lora", ...defaultTheme.fontFamily.serif],
+    },
+  },
+  plugins: [require("@tailwindcss/typography")],
+};
