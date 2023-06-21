@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.Language.Lang }}" class="dark hyphens-auto">
-    {{- partial "head.html" . -}}
-    <body class="px-20 py-5 dark:bg-slate-800 dark:text-amber-50">
-        {{- partial "header.html" . -}}
-        <div class="flex justify-center">
-        {{- block "main" . }}{{- end }}
-        </div>
-        {{- partial "footer.html" . -}}
-    </body>
+<html lang="{{ .Site.Language.Lang }}" class="dark">
+  {{- partial "head.html" . -}}
+  <body class="px-4 md:px-20 py-5 dark:bg-slate-800 dark:text-amber-50">
+    {{- partial "header.html" . -}}
+    <section role="main" class="md:flex md:justify-center">
+      {{- block "main" . }}{{- end }}
+    </section>
+    {{- partial "footer.html" . -}}
+  </body>
 </html>

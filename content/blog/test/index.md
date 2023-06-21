@@ -3,15 +3,16 @@ title: "Test post"
 date: 2023-06-19T00:00:00+04:00
 summary: Post made for the sake of testing theme, layout and etc.
 tags: ["test"]
+draft: true
 ---
-
-## Occam's razor
 
 Occam's razor (or Ockham's razor) is a principle from philosophy. Suppose an event has two possible explanations. The explanation that requires the fewest assumptions is usually correct. Another way of saying it is that the more assumptions you have to make, the more unlikely an explanation. Occam's razor applies especially in the philosophy of science, but also appears in everyday life.
 
+![William of Ockham](William_of_Ockham.png)
+
 ### History
 
-[William of Ockham](https://simple.wikipedia.org/wiki/William_of_Ockham), a Franciscan friar who studied logic in the 14th century, first made this principle well known.[1] In Latin it is sometimes called **lex parsimoniae**, or "the law of briefness". William of Ockham supposedly (see below) wrote it in Latin:
+[William of Ockham](https://simple.wikipedia.org/wiki/William_of_Ockham), a Franciscan friar who studied logic in the 14th century, first made this principle well known. In Latin it is sometimes called **lex parsimoniae**, or "the law of briefness". William of Ockham supposedly (see below) wrote it in Latin:
 
 - Entia non sunt multiplicanda praeter necessitatem.
 
@@ -47,7 +48,7 @@ Devider:
 
 ```typescript
 interface Animal {
-    run: (): number
+  run: () => number;
 }
 ```
 
@@ -59,14 +60,14 @@ interface Animal {
 >
 > - Revenue was off the chart.
 > - Profits were higher than ever.
-    >
-    >   _Everything_ is going according to **plan**.
+>
+>   _Everything_ is going according to **plan**.
 
 ---
 
-* This is the first list item.
-* Here's the second list item.
+- This is the first list item.
+- Here's the second list item.
 
   I need to add another paragraph below the second list item.
 
-- And here's the third list item.
+* And here's the third list item.

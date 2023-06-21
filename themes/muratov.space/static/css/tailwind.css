@@ -129,7 +129,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: IBM Plex Mono, ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -1218,6 +1218,20 @@ video {
   display: contents;
 }
 
+.min-w-min {
+  min-width: -moz-min-content;
+  min-width: min-content;
+}
+
+.min-w-max {
+  min-width: -moz-max-content;
+  min-width: max-content;
+}
+
+.flex-grow {
+  flex-grow: 1;
+}
+
 .list-inside {
   list-style-position: inside;
 }
@@ -1245,30 +1259,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.from-pink-500 {
-  --tw-gradient-from: #ec4899 var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(236 72 153 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-
-.from-50\% {
-  --tw-gradient-from-position: 50%;
-}
-
-.to-blue-400 {
-  --tw-gradient-to: #60a5fa var(--tw-gradient-to-position);
-}
-
 .to-sky-400 {
   --tw-gradient-to: #38bdf8 var(--tw-gradient-to-position);
-}
-
-.to-violet-500 {
-  --tw-gradient-to: #8b5cf6 var(--tw-gradient-to-position);
-}
-
-.to-80\% {
-  --tw-gradient-to-position: 80%;
 }
 
 .bg-clip-text {
@@ -1284,6 +1276,26 @@ video {
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.px-5 {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.px-2 {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pb-5 {
@@ -1310,11 +1322,6 @@ video {
 
 .text-transparent {
   color: transparent;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1354,3 +1361,29 @@ video {
   color: rgb(255 251 235 / var(--tw-text-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex {
+    display: flex;
+  }
+
+  .md\:justify-center {
+    justify-content: center;
+  }
+
+  .md\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .md\:px-20 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}

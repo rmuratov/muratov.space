@@ -1,4 +1,8 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://muratov.space/'
 languageCode = 'en-us'
 title = 'muratov.'
 theme = 'muratov.space'
+
+[markup]
+    [markup.highlight]
+        style = 'dracula'

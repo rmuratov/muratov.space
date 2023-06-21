@@ -8,6 +8,7 @@ module.exports = {
     fontFamily: {
       sans: ["Poppins", ...defaultTheme.fontFamily.sans],
       serif: ["Lora", ...defaultTheme.fontFamily.serif],
+      mono: ["IBM Plex Mono", ...defaultTheme.fontFamily.mono]
     },
   },
   plugins: [require("@tailwindcss/typography")],
