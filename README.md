@@ -1,3 +1,3 @@
 # muratov.space
 
-muratov.space websote sources. Built with Hugo static website generator.
+muratov.space website sources. Built with Hugo static website generator.
