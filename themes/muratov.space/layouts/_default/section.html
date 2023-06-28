@@ -5,7 +5,9 @@
     {{ range .Paginator.Pages }}
     <li>
       {{ .Date.Format "2006-01-02" }}
-      <a href="/blog" class="underline hover:text-pink-400">{{ .Title }}</a>
+      <a href="{{ .Permalink }}" class="underline hover:text-pink-400"
+        >{{ .Title }}</a
+      >
     </li>
     {{ end }}
   </ul>
