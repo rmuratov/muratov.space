@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'muratov.'
 theme = 'muratov.space'
 disableKinds = ["taxonomy", "term"]
+enableGitInfo = true
 
 [markup]
     [markup.highlight]
@@ -10,3 +11,6 @@ disableKinds = ["taxonomy", "term"]
 
 [params]
     twitter_handle = "@ramilmuratov"
+
+[frontmatter]
+    lastmod = ["lastmod", ":git", "date", "publishDate"]
