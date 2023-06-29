@@ -1,33 +1,33 @@
 {{ define "main" }}
-<section role="main" class="md:flex md:justify-center max-w-prose">
-  <div>
-    <h1
-      class="text-5xl font-bold mt-16 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 from-3% to-sky-400 to-77%"
-    >
-      Hi! My name is<br />Ramil Muratov.<br />I am software developer.
-    </h1>
+    <section role="main" class="md:flex md:justify-center max-w-prose">
+        <div>
+            <h1
+                class="text-4xl md:text-5xl font-bold mt-16 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 from-3% to-sky-400 to-77%"
+            >
+                Hi! My name is<br />Ramil Muratov.<br />I am software developer.
+            </h1>
 
-    <p class="mt-3">
-      This is intended to be my personal website, where I present myself and write
-      mostly about technology and what I've learned.
-    </p>
+            <p class="mt-3 hidden md:block">
+                This is intended to be my personal website, where I present myself and write mostly about technology and
+                what I've learned.
+            </p>
 
-    {{ partial "posts-list" . }}
-  </div>
-</section>
+            {{ partial "posts-list" . }}
+        </div>
+    </section>
 {{ end }}
 
-{{ define "jsonld"}}
-<script type='application/ld+json'>
-  {
-    "@context": "https://www.schema.org",
-    "@type": "Blog",
-    "about": "Technology, frontend development",
-    "author": {
-      "@type": "Person",
-      "name": "Ramil Muratov",
-      "url": "https://muratov.space"
-    }
-  }
-</script>
+{{ define "jsonld" }}
+    <script type="application/ld+json">
+        {
+            "@context": "https://www.schema.org",
+            "@type": "Blog",
+            "about": "Technology, frontend development",
+            "author": {
+                "@type": "Person",
+                "name": "Ramil Muratov",
+                "url": "https://muratov.space"
+            }
+        }
+    </script>
 {{ end }}

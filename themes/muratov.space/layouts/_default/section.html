@@ -1,15 +1,13 @@
 {{ define "main" }}
-<main>
-  <h1 class="text-4xl capitalize mb-10">{{ .Type }}</h1>
-  <ul class="contents">
-    {{ range .Paginator.Pages }}
-    <li>
-      {{ .Date.Format "2006-01-02" }}
-      <a href="{{ .Permalink }}" class="underline hover:text-pink-400"
-        >{{ .Title }}</a
-      >
-    </li>
-    {{ end }}
-  </ul>
-</main>
+    <main>
+        <h1 class="text-4xl capitalize mb-10">{{ .Type }}</h1>
+        <ul class="contents">
+            {{ range .Paginator.Pages }}
+                <li>
+                    {{ .Date.Format "2006-01-02" }}
+                    <a href="{{ .Permalink }}" class="underline hover:text-pink-400">{{ .Title }}</a>
+                </li>
+            {{ end }}
+        </ul>
+    </main>
 {{ end }}
