@@ -2,7 +2,7 @@
   {{ range where .Site.RegularPages "Section" "blog" }}
   <li>
     <a class="text-2xl block font-bold" href="{{ .Permalink }}">{{ .Title }}</a>
-    <span class="text-sm block">{{ .Date.Format "May 2, 2006" }}</span>
+    <span class="text-sm block">{{ .Date.Format "January 2, 2006" }}</span>
   </li>
   {{ end }}
 </ul>

@@ -3,7 +3,8 @@
   class="prose prose-lg dark:prose-invert font-serif prose-headings:font-sans"
 >
   <h1>{{ .Title }}</h1>
-    <i>{{ .Date.Format "May 6, 2006" }}{{ if ne .Date .Lastmod }} (updated {{ .Lastmod.Format "May 6, 2006" }}){{ end }}</i>
+    <i>{{ .Date.Format "January 2, 2006" }}{{ if ne .Date .Lastmod }} (updated {{ .Lastmod.Format "January 2, 2006" }}){{ end }}</i>
+
     {{ .Content }}
 </article>
 {{ end }}

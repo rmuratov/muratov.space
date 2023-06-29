@@ -1,7 +1,6 @@
 ---
 title: "I tried being productive with smartphones but I love computers more"
 date: 2023-06-19T18:50:00+04:00
-lastmod: 2023-06-19T18:50:00+04:00
 description: PC is your bro. Smartphone is not your bro.
 ---
 
