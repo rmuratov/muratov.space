@@ -3,7 +3,8 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "tw": "npx tailwindcss -i ./tailwind.css -o ./static/css/tailwind.css --watch --minify"
+    "tw": "npx tailwindcss -i ./tailwind.css -o ./static/css/tailwind.css --watch --minify",
+    "watch": "npx tailwindcss -i ./tailwind.css -o ./static/css/tailwind.css --watch"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.9",
