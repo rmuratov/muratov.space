@@ -1,0 +1,8 @@
+<ul class="mt-10 space-y-8 list-inside">
+  {{ range where .Site.RegularPages "Section" "blog" }}
+  <li>
+    <a class="text-2xl block font-bold" href="{{ .Permalink }}">{{ .Title }}</a>
+    <span class="text-sm block">{{ .Date.Format "2006-01-02" }}</span>
+  </li>
+  {{ end }}
+</ul>

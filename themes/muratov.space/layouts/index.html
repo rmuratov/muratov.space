@@ -1,21 +1,18 @@
 {{ define "main" }}
-<section role="main" class="md:flex md:justify-center">
+<section role="main" class="md:flex md:justify-center max-w-prose">
   <div>
     <h1
       class="text-5xl font-bold mt-16 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 from-3% to-sky-400 to-77%"
     >
-      Hi! My name is Ramil Muratov.<br />I am software developer.
+      Hi! My name is<br />Ramil Muratov.<br />I am software developer.
     </h1>
 
-    <h2 class="text-3xl mt-6">Recent posts:</h2>
+    <p class="mt-3">
+      This is intended to be my personal site, where I present myself and write
+      mostly about technology and what I've learned.
+    </p>
 
-    <ul class="mt-4 list-disc list-inside">
-      {{ range where .Site.RegularPages "Section" "blog" }}
-      <li>
-        <a class="underline" href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
+    {{ partial "posts-list" . }}
   </div>
 </section>
 {{ end }}

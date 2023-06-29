@@ -9,7 +9,7 @@ Occam's razor (or Ockham's razor) is a principle from philosophy. Suppose an eve
 
 ![William of Ockham](William_of_Ockham.png)
 
-### History
+## History
 
 [William of Ockham](https://simple.wikipedia.org/wiki/William_of_Ockham), a Franciscan friar who studied logic in the 14th century, first made this principle well known. In Latin it is sometimes called **lex parsimoniae**, or "the law of briefness". William of Ockham supposedly (see below) wrote it in Latin:
 
@@ -19,7 +19,7 @@ This translates roughly:
 
 - More things should not be used than are necessary.
 
-### Further ideas
+## Further ideas
 
 A problem with Occam's razor is that the sentence is not really about things (entia = entities), but about explanations or hypotheses. Other thinkers have come up with other versions:
 
@@ -27,14 +27,14 @@ A problem with Occam's razor is that the sentence is not really about things (en
 >
 > Ptolemy.
 
-### Examples
+## Examples
 
 Example: Two trees have fallen down during a windy night. Think about these two possible explanations:
 
 1. The wind has blown them down.
 2. Two meteorites have each taken one tree down and, after striking the trees, hit each other removing any trace of themselves.
 
-### Random table
+## Random table
 
 | Syntax    | Description |
 | --------- | ----------- |

@@ -2,6 +2,7 @@ baseURL = 'https://muratov.space/'
 languageCode = 'en-us'
 title = 'muratov.'
 theme = 'muratov.space'
+disableKinds = ["taxonomy", "term"]
 
 [markup]
     [markup.highlight]
