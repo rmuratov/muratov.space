@@ -1,8 +1,7 @@
 ---
 title: "Test post"
 date: 2023-06-19T00:00:00+04:00
-summary: Post made for the sake of testing theme, layout and etc.
-tags: ["test"]
+draft: true
 ---
 
 Occam's razor (or Ockham's razor) is a principle from philosophy. Suppose an event has two possible explanations. The explanation that requires the fewest assumptions is usually correct. Another way of saying it is that the more assumptions you have to make, the more unlikely an explanation. Occam's razor applies especially in the philosophy of science, but also appears in everyday life.

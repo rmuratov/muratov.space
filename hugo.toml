@@ -7,3 +7,6 @@ disableKinds = ["taxonomy", "term"]
 [markup]
     [markup.highlight]
         style = 'dracula'
+
+[params]
+    twitter_handle = "@ramilmuratov"
