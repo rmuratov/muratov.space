@@ -1,5 +1,5 @@
 ---
-title: "Ramil Muratov"
+title: "CV"
 date: 2023-06-21T15:39:48+04:00
 type: cv
 ---
