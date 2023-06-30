@@ -9,28 +9,47 @@
 
 {{ define "jsonld" }}
     <script type="application/ld+json">
-        {
-            "@context": "https://www.schema.org",
-            "@type": "Person",
-            "name": "Ramil Muratov",
-            "givenName": "Ramil",
-            "familyName": "Muratov",
-            "url": "https://muratov.space",
-            "email": "ramil@muratov.space",
-            "gender": "Male",
-            "jobTitle": "Senior Frontend Developer",
-            "knowsLanguage": [
-                {
-                    "@type": "Language",
-                    "name": "Russian",
-                    "alternateName": "ru"
-                },
-                {
-                    "@type": "Language",
-                    "name": "English",
-                    "alternateName": "en"
-                }
-            ]
-        }
+        [
+            {
+                "@context": "https://www.schema.org",
+                "@type": "Person",
+                "name": "Ramil Muratov",
+                "givenName": "Ramil",
+                "familyName": "Muratov",
+                "url": "https://muratov.space",
+                "email": "ramil@muratov.space",
+                "gender": "Male",
+                "jobTitle": "Senior Frontend Developer",
+                "knowsLanguage": [
+                    {
+                        "@type": "Language",
+                        "name": "Russian",
+                        "alternateName": "ru"
+                    },
+                    {
+                        "@type": "Language",
+                        "name": "English",
+                        "alternateName": "en"
+                    }
+                ]
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://muratov.space"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "CV"
+                    }
+                ]
+            }
+        ]
     </script>
 {{ end }}

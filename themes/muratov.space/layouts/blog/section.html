@@ -5,3 +5,37 @@
         {{ partial "posts-list" . }}
     </div>
 {{ end }}
+
+{{ define "jsonld" }}
+    <script type="application/ld+json">
+        [
+            {
+                "@context": "https://www.schema.org",
+                "@type": "Blog",
+                "about": "Technology, frontend development",
+                "author": {
+                    "@type": "Person",
+                    "name": "Ramil Muratov",
+                    "url": "https://muratov.space/blog/"
+                }
+            },
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "https://muratov.space"
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "name": "{{ .Title }}"
+                    }
+                ]
+            }
+        ]
+    </script>
+{{ end }}
