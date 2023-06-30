@@ -30,7 +30,7 @@
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name="twitter:title" content="{{ .Title }}" />
                 <meta name="twitter:image" content="{{ "/images/preview.jpg" | absURL }}" />
-                {{ if .Description }}
+                {{ if .Params.description }}
                     <meta name="twitter:description" content="{{ .Description }}" />
                 {{ end }}
                 {{ if .Site.Params.twitter_handle }}
