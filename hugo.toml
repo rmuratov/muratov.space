@@ -14,3 +14,8 @@ enableGitInfo = true
 
 [frontmatter]
     lastmod = ["lastmod", ":git", "date", "publishDate"]
+
+[minify]
+    [minify.tdewolff]
+        [minify.tdewolff.html]
+            keepQuotes = true
