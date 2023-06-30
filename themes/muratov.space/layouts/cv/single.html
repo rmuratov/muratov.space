@@ -1,6 +1,29 @@
 {{ define "main" }}
-<article>
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-</article>
+    <article>
+        <h1 class="text-4xl font-bold mb-10">{{ .Title }}</h1>
+        <div class="prose prose-lg dark:prose-invert font-serif prose-headings:font-sans">
+            {{ .Content }}
+        </div>
+    </article>
+{{ end }}
+
+{{ define "jsonld" }}
+    <script type="application/ld+json">
+        {
+            "@context": "https://www.schema.org",
+            "@type": "Person",
+            "name": "Ramil Muratov",
+            "givenName": "Ramil",
+            "familyName": "Muratov",
+            "url": "https://muratov.space",
+            "email": "ramil@muratov.space",
+            "gender": "Male",
+            "hasOccupation": {
+                "@type": "Occupation",
+                "name": "Senior Frontend Developer"
+            },
+            "jobTitle": "Senior Frontend Developer",
+            "knowsLanguage": ["ru", "en"]
+        }
+    </script>
 {{ end }}
