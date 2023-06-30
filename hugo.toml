@@ -4,6 +4,7 @@ title = 'muratov.'
 theme = 'muratov.space'
 disableKinds = ["taxonomy", "term"]
 enableGitInfo = true
+enableRobotsTXT = true
 
 [markup]
     [markup.highlight]
