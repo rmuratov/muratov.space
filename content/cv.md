@@ -28,7 +28,7 @@ Key Contributions:
 
 #### Dec 2018 - Oct 2022
 
-As a Fullstack Developer at ATI.SU, I made significant contributions to the development of a freight exchange platform. I successfully migrated an outdated ASPX-based cargo search application to modern technologies, such as React, MobX, Webpack, SASS, and CSS Modules. Moreover, I actively participated in the frontend deployment process and contributed to the company's components library. Developed internal tools at regular hackathons, including an application for deciphering bitmasks.. Additionally, I developed a comprehensive JavaScript course for manual testers and provided training sessions. 
+As a Fullstack Developer at ATI.SU, I made significant contributions to the development of a freight exchange platform. I successfully migrated an outdated ASPX-based cargo search application to modern technologies, such as React, MobX, Webpack, SASS, and CSS Modules. Moreover, I actively participated in the frontend deployment process and contributed to the company's components library. Developed internal tools at regular hackathons, including an application for deciphering bitmasks. Additionally, I developed a comprehensive JavaScript course for manual testers and provided training sessions. 
 
 Key Contributions:
 
