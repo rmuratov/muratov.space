@@ -102,7 +102,7 @@ Actually, I have one more file inside my `Bookkeeping` directory. It's called `l
 }
 ```
 
-This file is VS Code workspace. And when I click it VS Code opens my `Bookkeeping` directory with all the related ledger files and I can now edit them.
+This file is VS Code workspace. And when I click it VS Code opens my `Bookkeeping` directory with all the related ledger files and I can now edit them. And [ledger extension](https://github.com/mariosangiorgio/vscode-ledger) gives you syntax highlight.
 
 I use MacBook and store my `Bookkeeping` directory in `/Users/user/Library/Mobile Documents/com~apple~CloudDocs/`. That way it syncs via iCloud and I can edit my journal on my iPhone (`.ledger.txt` extension is exactly for this, either way, iPhone can not open files). Though I [do not do it](/blog/i-tried-being-productive-with-smartphones-but-i-love-computers-more) often.
 
