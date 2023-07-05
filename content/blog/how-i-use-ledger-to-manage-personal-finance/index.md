@@ -108,7 +108,7 @@ I use MacBook and store my `Bookkeeping` directory in `/Users/user/Library/Mobil
 
 Going to `/Users/user/Library/Mobile Documents/com~apple~CloudDocs/` every time I want to edit my journal is not that convenient. So I have a symlink to my `~/Documents` folder.
 
-## How do I do actual journaling
+## How I do actual journaling
 
 My routine by no means is advanced. I do not use any automated tools to parse bank statements. I also use a very basic set of Ledger features, i.e. just regular expenses, no stock tracking. And I don’t use auto postings, because for me they make things implicit, which I don’t like.
 
