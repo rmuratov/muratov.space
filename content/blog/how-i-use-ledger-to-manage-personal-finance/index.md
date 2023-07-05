@@ -1,6 +1,7 @@
 ---
-title: "How I Use Ledger to Manage Personal Finance"
-date: 2023-07-05T00:00:00+04:00
+title: How I Use Ledger to Manage Personal Finance
+description: Introduction to my approach to plain text accounting using ledger and hledger programs. iCloud sync and VS Code setup.
+date: 2023-06-30T18:09:16+04:00
 image: /images/calculator.jpg
 ---
 
