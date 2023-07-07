@@ -16,6 +16,13 @@
                 rel="stylesheet"
             />
 
+            <link
+                rel="alternate"
+                type="application/atom+xml"
+                title="Recent content on {{ .Site.Title }}"
+                href="{{ .Site.BaseURL }}index.xml"
+            />
+
             {{ block "meta_tags" . }}
                 {{ if .Params.description }}<meta name="description" content="{{ .Params.description }}" />{{ end }}
 
