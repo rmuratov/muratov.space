@@ -1,5 +1,5 @@
 ---
-title: "How to create recursive type in TypeScript"
+title: "How to create a recursive type in TypeScript"
 date: 2023-08-26T00:00:00+04:00
 description: TypeScript types can not be recursive. But interfaces can..
 image: /images/preview.jpg
