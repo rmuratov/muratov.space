@@ -1,22 +1,22 @@
 baseURL = 'https://muratov.space/'
 languageCode = 'en-us'
-title = 'muratov.'
+title = 'muratov.space'
 theme = 'muratov.space'
 disableKinds = ["taxonomy", "term"]
 enableGitInfo = true
 enableRobotsTXT = true
 
 [markup]
-    [markup.highlight]
-        style = 'dracula'
+[markup.highlight]
+style = 'dracula'
 
 [params]
-    twitter_handle = "@ramilmuratov"
+twitter_handle = "@ramilmuratov"
 
 [frontmatter]
-    lastmod = ["lastmod", ":git", "date", "publishDate"]
+lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [minify]
-    [minify.tdewolff]
-        [minify.tdewolff.html]
-            keepQuotes = true
+[minify.tdewolff]
+[minify.tdewolff.html]
+keepQuotes = true
