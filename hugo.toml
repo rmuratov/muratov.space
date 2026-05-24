@@ -2,7 +2,7 @@ baseURL = 'https://muratov.space/'
 title = 'muratov.space'
 theme = 'muratov.space'
 disableKinds = ["taxonomy", "term"]
-enableGitInfo = true
+enableGitInfo = false
 enableRobotsTXT = true
 
 [markup]
@@ -13,7 +13,7 @@ style = 'dracula'
 twitter_handle = "@ramilmuratov"
 
 [frontmatter]
-lastmod = ["lastmod", ":git", "date", "publishDate"]
+lastmod = ["lastmod", "date", "publishDate"]
 
 [minify]
 [minify.tdewolff]
