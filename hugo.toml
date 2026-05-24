@@ -1,5 +1,4 @@
 baseURL = 'https://muratov.space/'
-languageCode = 'en-us'
 title = 'muratov.space'
 theme = 'muratov.space'
 disableKinds = ["taxonomy", "term"]
@@ -20,3 +19,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 [minify.tdewolff]
 [minify.tdewolff.html]
 keepQuotes = true
+
+[languages]
+[languages.en]
+locale = 'en-us'

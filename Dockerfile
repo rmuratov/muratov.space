@@ -1,4 +1,4 @@
-FROM hugomods/hugo:ext-0.114.0 AS builder
+FROM hugomods/hugo:debian-reg-git-0.161.1 AS builder
 
 WORKDIR /src
 COPY . .
