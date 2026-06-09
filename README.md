@@ -4,18 +4,12 @@ muratov.space website sources. Built with Hugo static website generator.
 
 ## Development
 
-This site uses a custom theme located in `themes/muratov.space`. The theme is build with tailwindcss, so it first needed to run building css:
+Two terminals required:
 
 ```shell
-cd themes/muratov.space
-npm ci
-npm run tw
-```
+# Terminal 1 — build and watch Tailwind CSS
+npm ci && npm run tw
 
-And then starting hugo (inside root directory):
-
-```shell
+# Terminal 2 — start Hugo dev server with drafts
 make
 ```
-
-> The theme is not self-sufficient, a lot of content defined inside the theme. Someday I may extract it.

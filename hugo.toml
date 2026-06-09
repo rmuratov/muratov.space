@@ -1,6 +1,5 @@
 baseURL = 'https://muratov.space/'
 title = 'muratov.space'
-theme = 'muratov.space'
 disableKinds = ["taxonomy", "term"]
 enableGitInfo = false
 enableRobotsTXT = true
